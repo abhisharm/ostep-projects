@@ -3,7 +3,7 @@ CFLAGS = -Wall -g
 
 all: xcheck
 
-xcheck: xcheck.c fs.h param.h 
+xcheck: xcheck.c fs.h
 	$(CC) $(CFLAGS) -o xcheck xcheck.c
 
 # todo: add some testing stuff

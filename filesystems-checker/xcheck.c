@@ -7,7 +7,6 @@
 #include <string.h>
 
 #include "fs.h"
-#include "param.h"
 
 #define T_DIR  1   // Directory
 #define T_FILE 2   // File
